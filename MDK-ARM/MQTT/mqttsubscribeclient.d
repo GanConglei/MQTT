@@ -1,0 +1,11 @@
+mqtt\mqttsubscribeclient.o: ..\mqttclient\mqtt\MQTTSubscribeClient.c
+mqtt\mqttsubscribeclient.o: ..\mqttclient\mqtt\MQTTPacket.h
+mqtt\mqttsubscribeclient.o: ..\mqttclient\mqtt\MQTTConnect.h
+mqtt\mqttsubscribeclient.o: ..\mqttclient\mqtt\MQTTPublish.h
+mqtt\mqttsubscribeclient.o: ..\mqttclient\mqtt\MQTTSubscribe.h
+mqtt\mqttsubscribeclient.o: ..\mqttclient\mqtt\MQTTUnsubscribe.h
+mqtt\mqttsubscribeclient.o: ..\mqttclient\mqtt\MQTTFormat.h
+mqtt\mqttsubscribeclient.o: ..\mqttclient\mqtt\StackTrace.h
+mqtt\mqttsubscribeclient.o: D:\keil\ARM\ARMCC\Bin\..\include\stdio.h
+mqtt\mqttsubscribeclient.o: ..\mqttclient\mqtt\MQTTPacket.h
+mqtt\mqttsubscribeclient.o: D:\keil\ARM\ARMCC\Bin\..\include\string.h

@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "usart.h": "c",
+        "stm32f1xx_hal.h": "c",
+        "stm32f1xx_hal_conf.h": "c",
+        "stdio.h": "c",
+        "cmsis_os.h": "c",
+        "freertos.h": "c",
+        "queue": "c",
+        "ringbuff.h": "c",
+        "wifi.h": "c",
+        "algorithm": "c",
+        "main.h": "c",
+        "gpio.h": "c",
+        "mqttclient.h": "c",
+        "string.h": "c",
+        "plooc_class.h": "c",
+        "plooc_class_simple.h": "c",
+        "freertosconfig.h": "c",
+        "uart.h": "c"
+    }
+}

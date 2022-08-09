@@ -1,0 +1,1282 @@
+Dependencies for Project 'MQTT', Target 'MQTT': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (startup_stm32f103xe.s)(0x62D96162)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ..\Core\Inc-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xe.lst --xref -o mqtt\startup_stm32f103xe.o --depend mqtt\startup_stm32f103xe.d)
+F (../Core/Src/main.c)(0x62DAA8BA)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\main.o --depend mqtt\main.d)
+I (../Core/Inc/main.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x61781E2C)
+I (../Core/Inc/dma.h)(0x62D96159)
+I (../Core/Inc/usart.h)(0x62D9615A)
+I (../Core/Inc/gpio.h)(0x62D96156)
+I (..\Lib\App.h)(0x62AF24EB)
+F (../Core/Src/gpio.c)(0x62D96155)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\gpio.o --depend mqtt\gpio.d)
+I (../Core/Inc/gpio.h)(0x62D96156)
+I (../Core/Inc/main.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Core/Src/freertos.c)(0x62DAA2EC)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\freertos.o --depend mqtt\freertos.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Core/Inc/main.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x61781E2C)
+I (..\Lib\App.h)(0x62AF24EB)
+F (../Core/Src/dma.c)(0x62D96159)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\dma.o --depend mqtt\dma.d)
+I (../Core/Inc/dma.h)(0x62D96159)
+I (../Core/Inc/main.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Core/Src/usart.c)(0x62D96159)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\usart.o --depend mqtt\usart.d)
+I (../Core/Inc/usart.h)(0x62D9615A)
+I (../Core/Inc/main.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Core/Src/stm32f1xx_it.c)(0x62D96222)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_it.o --depend mqtt\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_it.h)(0x62D9615B)
+I (..\Lib\Uart.h)(0x62D3F52A)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x62D9615B)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_msp.o --depend mqtt\stm32f1xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Core/Src/stm32f1xx_hal_timebase_tim.c)(0x62D9615C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_timebase_tim.o --depend mqtt\stm32f1xx_hal_timebase_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_gpio_ex.o --depend mqtt\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal.o --depend mqtt\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_rcc.o --depend mqtt\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_rcc_ex.o --depend mqtt\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_gpio.o --depend mqtt\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_dma.o --depend mqtt\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_cortex.o --depend mqtt\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_pwr.o --depend mqtt\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_flash.o --depend mqtt\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_flash_ex.o --depend mqtt\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_exti.o --depend mqtt\stm32f1xx_hal_exti.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_tim.o --depend mqtt\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_tim_ex.o --depend mqtt\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stm32f1xx_hal_uart.o --depend mqtt\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Core/Src/system_stm32f1xx.c)(0x61781E4A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\system_stm32f1xx.o --depend mqtt\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x61781E2C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\croutine.o --depend mqtt\croutine.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x61781E2C)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x61781E2C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\event_groups.o --depend mqtt\event_groups.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x61781E2C)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x61781E2C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\list.o --depend mqtt\list.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x61781E2C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\queue.o --depend mqtt\queue.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61781E2C)
+F (../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c)(0x61781E2C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\stream_buffer.o --depend mqtt\stream_buffer.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h)(0x61781E2C)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x61781E2C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\tasks.o --depend mqtt\tasks.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h)(0x61781E2C)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x61781E2C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\timers.o --depend mqtt\timers.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61781E2C)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c)(0x61781E2C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\cmsis_os.o --depend mqtt\cmsis_os.d)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x61781E2C)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x61781E2C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\heap_4.o --depend mqtt\heap_4.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c)(0x61781E2C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\port.o --depend mqtt\port.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+F (..\mqttclient\common\mqtt_list.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqtt_list.o --depend mqtt\mqtt_list.d)
+I (..\mqttclient\common\mqtt_list.h)(0x620B1F79)
+F (..\mqttclient\common\random.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\random.o --depend mqtt\random.d)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\mqttclient\common\random.h)(0x620B1F79)
+I (..\mqttclient\platform\FreeRTOS\platform_timer.h)(0x620B1F79)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (..\mqttclient\platform\FreeRTOS\platform_memory.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+F (..\mqttclient\mqttclient\mqttclient.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqttclient.o --depend mqtt\mqttclient.d)
+I (..\mqttclient\mqttclient\mqttclient.h)(0x62B9C340)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (..\mqttclient\common\mqtt_list.h)(0x620B1F79)
+I (..\mqttclient\platform\FreeRTOS\platform_timer.h)(0x620B1F79)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (..\mqttclient\platform\FreeRTOS\platform_memory.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\mqttclient\platform\FreeRTOS\platform_mutex.h)(0x620B1F79)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61781E2C)
+I (..\mqttclient\platform\FreeRTOS\platform_thread.h)(0x620B1F79)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (..\mqttclient\mqttclient\mqtt_defconfig.h)(0x620B1F79)
+I (..\mqttclient\test\mqtt_config.h)(0x62D95B6C)
+I (..\mqttclient\network\network.h)(0x620B1F79)
+I (..\mqttclient\common\random.h)(0x620B1F79)
+I (..\mqttclient\common\mqtt_error.h)(0x620B1F79)
+I (..\mqttclient\common\mqtt_log.h)(0x620B1F79)
+I (..\mqttclient\common\PLOOC\plooc_class.h)(0x62B9BB4B)
+I (..\mqttclient\common\PLOOC\./plooc.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\mqttclient\common\PLOOC\./plooc_class_simple.h)(0x62B9BB43)
+F (..\mqttclient\mqtt\MQTTConnectClient.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqttconnectclient.o --depend mqtt\mqttconnectclient.d)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\mqttclient\mqtt\MQTTConnectServer.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqttconnectserver.o --depend mqtt\mqttconnectserver.d)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\mqttclient\mqtt\MQTTDeserializePublish.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqttdeserializepublish.o --depend mqtt\mqttdeserializepublish.d)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\mqttclient\mqtt\MQTTFormat.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqttformat.o --depend mqtt\mqttformat.d)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\mqttclient\mqtt\MQTTPacket.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqttpacket.o --depend mqtt\mqttpacket.d)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\mqttclient\mqtt\MQTTSerializePublish.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqttserializepublish.o --depend mqtt\mqttserializepublish.d)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\mqttclient\mqtt\MQTTSubscribeClient.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqttsubscribeclient.o --depend mqtt\mqttsubscribeclient.d)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\mqttclient\mqtt\MQTTSubscribeServer.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqttsubscribeserver.o --depend mqtt\mqttsubscribeserver.d)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\mqttclient\mqtt\MQTTUnsubscribeClient.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqttunsubscribeclient.o --depend mqtt\mqttunsubscribeclient.d)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\mqttclient\mqtt\MQTTUnsubscribeServer.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\mqttunsubscribeserver.o --depend mqtt\mqttunsubscribeserver.d)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\mqttclient\network\nettype_tcp.c)(0x62A57ACC)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\nettype_tcp.o --depend mqtt\nettype_tcp.d)
+I (..\mqttclient\common\mqtt_log.h)(0x620B1F79)
+I (..\mqttclient\mqttclient\mqtt_defconfig.h)(0x620B1F79)
+I (..\mqttclient\test\mqtt_config.h)(0x62D95B6C)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\mqttclient\network\nettype_tcp.h)(0x620B1F79)
+I (..\mqttclient\platform\FreeRTOS\platform_net_socket.h)(0x62A57B7E)
+I (..\mqttclient\network\network.h)(0x620B1F79)
+I (..\mqttclient\common\mqtt_error.h)(0x620B1F79)
+F (..\mqttclient\network\nettype_tls.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\nettype_tls.o --depend mqtt\nettype_tls.d)
+I (..\mqttclient\network\nettype_tls.h)(0x620B1F79)
+I (..\mqttclient\mqttclient\mqtt_defconfig.h)(0x620B1F79)
+I (..\mqttclient\test\mqtt_config.h)(0x62D95B6C)
+I (..\mqttclient\network\network.h)(0x620B1F79)
+I (..\mqttclient\common\mqtt_error.h)(0x620B1F79)
+I (..\mqttclient\common\mqtt_log.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\mqttclient\platform\FreeRTOS\platform_net_socket.h)(0x62A57B7E)
+I (..\mqttclient\platform\FreeRTOS\platform_memory.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\mqttclient\platform\FreeRTOS\platform_timer.h)(0x620B1F79)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (..\mqttclient\common\random.h)(0x620B1F79)
+F (..\mqttclient\network\network.c)(0x62A57C2A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\network.o --depend mqtt\network.d)
+I (..\mqttclient\platform\FreeRTOS\platform_timer.h)(0x620B1F79)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (..\mqttclient\platform\FreeRTOS\platform_memory.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\mqttclient\network\nettype_tcp.h)(0x620B1F79)
+I (..\mqttclient\platform\FreeRTOS\platform_net_socket.h)(0x62A57B7E)
+I (..\mqttclient\network\network.h)(0x620B1F79)
+I (..\mqttclient\mqttclient\mqtt_defconfig.h)(0x620B1F79)
+I (..\mqttclient\test\mqtt_config.h)(0x62D95B6C)
+I (..\mqttclient\common\mqtt_error.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\mqttclient\platform\FreeRTOS\platform_memory.c)(0x62D95B09)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\platform_memory.o --depend mqtt\platform_memory.d)
+I (..\mqttclient\platform\FreeRTOS\platform_memory.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+F (..\mqttclient\platform\FreeRTOS\platform_mutex.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\platform_mutex.o --depend mqtt\platform_mutex.d)
+I (..\mqttclient\platform\FreeRTOS\platform_mutex.h)(0x620B1F79)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61781E2C)
+F (..\mqttclient\platform\FreeRTOS\platform_net_socket.c)(0x62D3F5FF)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\platform_net_socket.o --depend mqtt\platform_net_socket.d)
+I (..\Lib\Wifi.h)(0x62D3F5E5)
+I (..\mqttclient\common\mqtt_log.h)(0x620B1F79)
+I (..\mqttclient\mqttclient\mqtt_defconfig.h)(0x620B1F79)
+I (..\mqttclient\test\mqtt_config.h)(0x62D95B6C)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\mqttclient\platform\FreeRTOS\platform_net_socket.h)(0x62A57B7E)
+I (..\mqttclient\network\network.h)(0x620B1F79)
+I (..\mqttclient\common\mqtt_error.h)(0x620B1F79)
+F (..\mqttclient\platform\FreeRTOS\platform_thread.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\platform_thread.o --depend mqtt\platform_thread.d)
+I (..\mqttclient\platform\FreeRTOS\platform_thread.h)(0x620B1F79)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (..\mqttclient\platform\FreeRTOS\platform_memory.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+F (..\mqttclient\platform\FreeRTOS\platform_timer.c)(0x620B1F79)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\platform_timer.o --depend mqtt\platform_timer.d)
+I (..\mqttclient\platform\FreeRTOS\platform_timer.h)(0x620B1F79)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+F (..\mqttclient\test\mqtt_config.h)(0x62D95B6C)()
+F (..\Lib\App.c)(0x62DAA78B)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\app.o --depend mqtt\app.d)
+I (..\Lib\App.h)(0x62AF24EB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+I (../Core/Inc/usart.h)(0x62D9615A)
+I (../Core/Inc/main.h)(0x62D9615C)
+I (..\Lib\Uart.h)(0x62D3F52A)
+I (..\Lib\Wifi.h)(0x62D3F5E5)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+F (..\Lib\RingBuff.c)(0x62A72733)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\ringbuff.o --depend mqtt\ringbuff.d)
+I (..\Lib\RingBuff.h)(0x62D954A3)
+F (..\Lib\Uart.c)(0x62D3F4F6)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\uart.o --depend mqtt\uart.d)
+I (..\Lib\RingBuff.h)(0x62D954A3)
+I (..\Lib\Uart.h)(0x62D3F52A)
+I (../Core/Inc/main.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+I (..\Lib\Wifi.h)(0x62D3F5E5)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x61781E2C)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Core/Inc/usart.h)(0x62D9615A)
+F (..\Lib\Wifi.c)(0x62DAAC03)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\mqttclient\common -I ..\mqttclient\common\PLOOC -I ..\mqttclient\mqtt -I ..\mqttclient\mqttclient -I ..\mqttclient\network -I ..\mqttclient\network\mbedtls\include\mbedtls -I ..\mqttclient\platform\FreeRTOS -I ..\mqttclient\test -I ..\Lib-I.\RTE\_MQTT-ID:\keil\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\keil\Arm\Packs\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o mqtt\wifi.o --depend mqtt\wifi.d)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\Lib\RingBuff.h)(0x62D954A3)
+I (..\Lib\Uart.h)(0x62D3F52A)
+I (../Core/Inc/main.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x61781E4A)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x62D9615C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x61781E4A)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h)(0x61781E4A)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x61781E29)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x61781E29)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x61781E29)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x61781E4A)
+I (D:\keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x61781E4A)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x61781E4A)
+I (..\Lib\Wifi.h)(0x62D3F5E5)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x61781E2C)
+I (../Core/Inc/FreeRTOSConfig.h)(0x62D9647E)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x61781E2C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x61781E2C)
+I (../Core/Inc/gpio.h)(0x62D96156)
+I (..\mqttclient\mqttclient\mqttclient.h)(0x62B9C340)
+I (..\mqttclient\mqtt\MQTTPacket.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTConnect.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTPublish.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTSubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTUnsubscribe.h)(0x620B1F79)
+I (..\mqttclient\mqtt\MQTTFormat.h)(0x620B1F79)
+I (..\mqttclient\mqtt\StackTrace.h)(0x620B1F79)
+I (..\mqttclient\common\mqtt_list.h)(0x620B1F79)
+I (..\mqttclient\platform\FreeRTOS\platform_timer.h)(0x620B1F79)
+I (..\mqttclient\platform\FreeRTOS\platform_memory.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\mqttclient\platform\FreeRTOS\platform_mutex.h)(0x620B1F79)
+I (..\mqttclient\platform\FreeRTOS\platform_thread.h)(0x620B1F79)
+I (..\mqttclient\mqttclient\mqtt_defconfig.h)(0x620B1F79)
+I (..\mqttclient\test\mqtt_config.h)(0x62D95B6C)
+I (..\mqttclient\network\network.h)(0x620B1F79)
+I (..\mqttclient\common\random.h)(0x620B1F79)
+I (..\mqttclient\common\mqtt_error.h)(0x620B1F79)
+I (..\mqttclient\common\mqtt_log.h)(0x620B1F79)
+I (..\mqttclient\common\PLOOC\plooc_class.h)(0x62B9BB4B)
+I (..\mqttclient\common\PLOOC\./plooc.h)(0x620B1F79)
+I (D:\keil\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\mqttclient\common\PLOOC\./plooc_class_simple.h)(0x62B9BB43)
